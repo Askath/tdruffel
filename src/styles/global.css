@@ -38,16 +38,16 @@
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
   --font-display: "press-start-2p", ui-monospace, monospace;
   --font-serif: "Literata Variable", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --color-zag-dark: var(--color-neutral-900);
-  --color-zag-dark-opaque: oklch(from var(--color-neutral-900) l c h / 0.5);
-  --color-zag-light: var(--color-neutral-100);
-  --color-zag-light-opaque: oklch(from var(--color-neutral-100) l c h / 0.5);
-  --color-zag-dark-muted: var(--color-neutral-600);
-  --color-zag-light-muted: var(--color-neutral-400);
-  --color-zag-accent-light: var(--color-emerald-400);
-  --color-zag-accent-light-muted: var(--color-emerald-300);
-  --color-zag-accent-dark: var(--color-emerald-600);
-  --color-zag-accent-dark-muted: var(--color-emerald-800);
+  --color-zag-dark: #191724;
+  --color-zag-dark-opaque: oklch(from #191724 l c h / 0.5);
+  --color-zag-light: #faf4ed;
+  --color-zag-light-opaque: oklch(from #faf4ed l c h / 0.5);
+  --color-zag-dark-muted: #6e6a86;
+  --color-zag-light-muted: #9893a5;
+  --color-zag-accent-light: #b4637a;
+  --color-zag-accent-light-muted: #d7827e;
+  --color-zag-accent-dark: #907aa9;
+  --color-zag-accent-dark-muted: #56949f;
 }
 
 @layer base {
