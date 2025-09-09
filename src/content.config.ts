@@ -177,7 +177,7 @@ const configuration = defineCollection({
       /**
        * The name of the site owner or author, used in various places throughout the site.
        */
-      name: z.string().default("Zaggonaut"),
+      name: z.string().default("Tara Druffel"),
 
       /**
        * The GitHub profile URL of the site owner or author.
