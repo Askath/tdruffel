@@ -13,7 +13,7 @@ export async function getStaticPaths() {
         ...article,
         data: {
           ...article.data,
-          url: `${config.site.baseUrl}/blog/${article.data.slug}`,
+          url: `/blog/${article.data.slug}`,
         },
       },
     },
