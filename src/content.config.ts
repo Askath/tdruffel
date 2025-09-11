@@ -118,7 +118,7 @@ const configuration = defineCollection({
        * The title of the page, used in the HTML `<title>` tag and Open Graph metadata.
        */
       title: z.string(),
-
+      
       /**
        * The short description of the page, used in Open Graph metadata and as a fallback for SEO.
        */
